@@ -9,10 +9,10 @@ https://devdocs.prestashop.com/1.7/modules/creation/
 <hr>
 <h3>Méthode install()</h3>
 <p>Il faudra instancier la classe Tab() et y affecter un id_parent pour accrocher notre lien.
-Il faudra également faire en sorte de paramétrer le multi Langage. 
+Il faudra également faire en sorte de paramétrer le multi Langage : Language::getLangues 
 </p>
 <h3>Configuration de la route yml</h3>
 <ul>
   <li>_legacy_controller</li>
-  <li><_legacy_link/li>
+  <li>_legacy_link</li>
 </ul>
